@@ -158,7 +158,7 @@ func planBSS(pCoin string, pSym1 string, pSym2 string, pSym3 string) string {
 
 		//Check APIKEY, APISECRET
 		if len(APIKEY) != 32 || len(APISECRET) != 32 {
-		fmt.Println("Sorry, you should set the variables APIKEY and APISECRET from Binance...")		
+		fmt.Println("Sorry, you should set the variables APIKEY and APISECRET from Bittrex...")		
 		fmt.Println("Limit Orders don't set. Press the Enter for continue or CTRL-C for Exit.")
 		fmt.Scanln() // wait for Enter Key
 		return "APIKEY or APISECRET don't set"
